@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+box-sizing: border-box;
+        }
+        body{
+font-family: serif;
+        }
+.container{
+    margin:70px auto;
+width: 900px;
+border: 3px solid purple;
+}
+.item{
+border: 3px solid grey;
+margin: 12px 13px;
+padding: 17px;
+background-color: rgb(245, 144, 245);
+}
+#fruit{
+float: left;
+width: 48%;
+}
+
+#computer{
+    float: left;
+width: 48%;
+
+}
+#stationary{
+    /* float: left; */
+width: 100%;
+clear: both;
+clear: left;
+
+}
+p,h3{
+    /* text-align: right;
+    text-align: left; */
+    /* text-align: center; */
+    text-align: justify;
+}
+h1{
+    margin: auto;
+    width: 383px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to my Store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam rerum eum neque, provident tempore ipsam cupiditate voluptate. Ipsa ut non, esse nulla odio corrupti voluptates excepturi unde doloribus similique!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam rerum eum neque, provident tempore ipsam cupiditate voluptate. Ipsa ut non, esse nulla odio corrupti voluptates excepturi unde doloribus similique!
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Staitionary</h3>
+            <p id="stationarypara" class="para">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam rerum eum neque, provident tempore ipsam cupiditate voluptate. Ipsa ut non, esse nulla odio corrupti voluptates excepturi unde doloribus similique!
+            </p>
+        </div>
+        <div id="glass" class="item">
+            <h3>Glasses</h3>
+            <p id="glass" class="glasses">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magnam rerum eum neque, provident tempore ipsam cupiditate voluptate. Ipsa ut non, esse nulla odio corrupti voluptates excepturi unde doloribus similique!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
