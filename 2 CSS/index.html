@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fitness</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            margin: 0px;
+            padding: 0px;
+            background: url('Fitness.jpeg');
+       color: white;
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
+        
+        .left{
+            position: absolute;
+            display: inline-block;
+/* border: 2px solid red; */
+left: 38px;
+top: 20px;
+
+ text-align: center;
+        }
+        .left img{
+           width: 70px;
+filter: invert(100%);
+        }
+.right{
+    position: absolute;
+    right: 34px;
+    /* top: 18px; */
+    display: inline-block;
+    /* border: 2px solid green; */
+    top: 30px;
+}
+.mid{
+    width: 49%;
+    color: white;
+    display: block;
+    margin:20px auto;
+    /* border: 2px solid yellow; */
+    top: 20px;
+    /* font-size: 15px; */
+}
+.navbar{
+    display: inline-block;
+}
+.left div{
+    text-align: center;
+    line-height:19px ;
+    font-size: 20px;
+}
+.navbar li{
+    display: inline-block;
+    /* color:white;  */
+    font-size: 20px;
+    color: white;
+}
+.navbar li a{
+    color: white;
+    padding: 34px 20px;
+    text-decoration: none;
+
+}
+.navbar li a:hover,.navbar li a.active{
+    color: white;
+    padding: 34px 20px;
+    text-decoration: underline;
+color: gray;
+}
+.btn{
+    margin: 0px 9px;
+background-color: black;
+color: white;
+border: 2px solid grey;
+font-size: 20px;
+cursor: pointer;
+}
+.btn:hover{
+background-color:grey;
+color: white;
+}
+.container{
+    margin: 106px 80px;
+    border: 2px solid white;
+padding: 75px;
+width: 30%;
+border-radius: 29px;
+float: right;
+margin-left:50px ;
+
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    
+    width: 400px;
+    font-size: 25px;
+border-radius: 8px;
+margin: 8px auto;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    font-size: 20px;
+    text-align: center;
+   
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+<img src="dumble.png" alt="" srcset="">
+
+<div>My Fitness</div> 
+     
+</div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Calculator</a></li>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+<button class="btn">Call Us Now</button>
+<button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Kasur Now</h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your age"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your locality"></div>
+            <div class="form-group"><input type="text" name="" placeholder="Enter your Gender"></div>
+            <button type="submit" class="btn">Submit</button>
+        </form> 
+    </div>
+
+</body>
+</html>
