@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes and nth child pseudio Selectors</title>
+<style>
+    .container{
+        display: block;
+        margin: auto;
+        /* width: 25px; */
+        width: 245px;
+    }
+input{
+     display: block;
+}
+a[target]{
+    font-size: 25px;
+    color: green;
+}
+a[target='_self']{
+    font-size: 25px;
+    color: yellow;
+}
+input[type='text']{
+    padding: 20px;
+    border: 2px solid blue;
+}
+li:nth-child(5)
+{
+color: aqua;
+}
+li:nth-child(2n+0)
+{
+color: rebeccapurple;
+}
+li:nth-child(odd){
+    color: red;
+}
+</style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1><a href="www.google.com" target="_blank"> Go To Google</a></h1>
+        <h1><a href="www.facebook.com" target="_self"> Go To FaceBook</a></h1>
+       <form action="" class="form-control">
+        <input type="text" placeholder="Enter Your name">
+        <input type="password" placeholder="Enter your password">
+        <input type="submit" value="submit">
+       </form>
+
+        <ul>
+            <li class="item" id="item-1">Item1</li>
+            <li class="item" id="item-2">Item2</li>
+            <li class="item" id="item-3">Item3</li>
+            <li class="item" id="item-4">Item4</li>
+            <li class="item" id="item-5">Item5</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After</title>
+    <style>
+body{
+    padding: 0px;
+    margin: 0px;
+  /* background-color: black; */
+  
+  color: yellow;  
+}
+header::before{
+   background-image: url('https://wallpapertag.com/wallpaper/full/2/a/2/950100-download-free-cool-black-background-designs-1920x1200-for-mac.jpg') ;
+   background-repeat: no-repeat;
+   background-position: center;
+   z-index: -1;
+   top: 0px;
+   left: 0px;
+   opacity:1.3;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.navigation{
+    display: flex;
+}
+section{
+    height: 244px;
+    justify-content: center;
+    border: 2px solid yellowgreen;
+    margin: 3px 23px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* section::before{
+    content: "This is a contyent";
+} */
+h1{
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+}
+li{
+    list-style: none;
+    padding: 20px 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <ul class="navigation">
+            <li class="item">Home</li>
+            <li class="item">About</li>
+            <li class="item">Services</li>
+            <li class="item">Contact Us</li>
+        </ul>
+    </nav>
+</header>
+    <section>
+        <h3>Welcome to Coding World</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, magnam recusandae quia reiciendis autem ipsa debitis. Consequuntur aut expedita eligendi quis impedit magni natus praesentium voluptatibus tenetur. Quam nostrum, cum, temporibus culpa voluptates molestias libero commodi, possimus pariatur consequuntur eius!</p>
+        <hr>
+    </section>
+
+</body>
+</html>
