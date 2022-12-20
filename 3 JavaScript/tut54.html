@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert, Prompt and Confirm</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont">
+        This is a page.
+    </div>
+    <script>
+// alert("Hello ZAIN");
+let name=prompt("What is yourname:", "Guest");
+console.log(name);
+let deletep =confirm("Do you really want to delete this post");
+console.log(deletep);
+if(deletep===true){
+    document.getElementById("cont").innerHTML= "<h1>  your post has  been deleted successfully</h1>"
+}
+else{
+    
+  document.getElementById("cont").innerHTML= "<h1>  your post has not been deleted successfully</h1>"
+}
+    </script>
+</body>
+</html>
