@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS ssettimeOut and ClearTimeOut</title>
+</head>
+<body>
+    <div class="container">
+        The Time is
+        <span id="time"></span>
+    </div>
+    <script>
+
+        // name="zain"
+        console.log("this is tutorial 58");
+        function greet(name,byetext){
+            console.log("hello"+name+""+byetext)
+        
+       
+        }
+        setTimeout(greet,4000,"zain","takeCare")
+
+timeout=setTimeout(greet,4000,"zain","takeCare")
+console.log(timeout)
+clearTimeout(timeout)
+setInterval(greet,12000,"zain","love you")
+   function displayTime(){
+    time=new Date();
+    console.log(time);
+    document.getElementById('time').innerHTML=time;
+}
+setInterval(displayTime,1000)  
+
+</script>
+</body>
+</html>
