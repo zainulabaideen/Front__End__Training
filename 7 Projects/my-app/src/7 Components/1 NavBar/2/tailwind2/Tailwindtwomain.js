@@ -39,7 +39,7 @@ const Tailwindtwomain = () => {
      
         <div className="inline-flex">
           <AiFillEnvironment className={`bg-amber-300 text-4xl rounded cursor-pointer block float-left mr-2 ${open && "rotate-[360deg]"} duration-500`} />
-       <h1 className={`text-white origin-left font-medium text-2xl ${!open && "scale"} duration-300`}>Tailwind</h1>
+       <h1 className={`text-white origin-left font-medium text-2xl ${!open && "scale" && 'hidden'} duration-300`}>Tailwind</h1>
         </div>
         <div className={`flex items-center rounded-md bg-light-white mt-6 ${!open? "px-2.5":  "px-4"} px-4 py-2`}>
       <BsSearch  className={`text-white text-lg block float-left cursor-pointer   ${open && "mr-2"}`}/>

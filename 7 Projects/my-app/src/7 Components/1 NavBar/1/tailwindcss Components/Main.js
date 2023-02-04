@@ -7,7 +7,7 @@ const Main = () => {
     <div>
       <section className='h-screen bg-gray-600 font-[Inter,serif] bg-cover md:bg-top bg-center'>
 <TailwindNavbar />
-<div className='flex flex-col justify-center text-center items-center '>
+<div className='flex flex-col justify-center text-center items-center pt-24 '>
 <h2 className='text-white text-2xl font-medium '>Fashion Tips 
 </h2>
 <h1 className='md:text-5xl text-3xl text-white font-semibold py-5'>
